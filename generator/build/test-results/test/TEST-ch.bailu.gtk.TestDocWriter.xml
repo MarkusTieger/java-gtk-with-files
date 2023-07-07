@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.bailu.gtk.TestDocWriter" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-07T13:25:55" hostname="ms7c56" time="0.018">
+  <properties/>
+  <testcase name="testEvenPre()" classname="ch.bailu.gtk.TestDocWriter" time="0.018"/>
+  <system-out><![CDATA[WARNING code tags are not even: "Sets the maximum allowed length of the contents of the widget. If the current contents are longer than the given length, then they will be truncated to fit.  This is equivalent to getting @entry's #GtkEntryBuffer and calling gtk_entry_buffer_set_max_length() on it. ]|"
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

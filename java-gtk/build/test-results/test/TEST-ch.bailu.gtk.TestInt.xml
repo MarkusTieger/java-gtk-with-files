@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.bailu.gtk.TestInt" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-07T13:26:39" hostname="ms7c56" time="0.0">
+  <properties/>
+  <testcase name="testInt()" classname="ch.bailu.gtk.TestInt" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

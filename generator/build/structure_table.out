@@ -1,0 +1,1402 @@
+{gobject
+    ParamSpecString                         get-type
+    EnumValue                               
+    ParamSpecChar                           get-type
+    ParamSpecBoxed                          get-type
+    ParamSpecObject                         get-type
+    ParamSpecTypeInfo                       
+    BindingGroup                            get-type
+    EnumClass                               
+    TypeInterface                           
+    ParamSpecFlags                          get-type
+    TypeModule                              get-type
+    Binding                                 get-type
+    ParamSpec                               get-type
+    SignalGroup                             get-type
+    SignalQuery                             
+    ObjectConstructParam                    
+    ParamSpecDouble                         get-type
+    ParamSpecInt                            get-type
+    ParamSpecInt64                          get-type
+    TypeQuery                               
+    ParamSpecPointer                        get-type
+    TypeInfo                                
+    ParamSpecParam                          get-type
+    CClosure                                
+    _Value__data__union                     
+    Value                                   get-type
+    Object                                  get-type
+    ParamSpecPool                           
+    InterfaceInfo                           
+    TypeFundamentalInfo                     
+    ParamSpecUChar                          get-type
+    TypeCValue                              
+    ParamSpecValueArray                     get-type
+    SignalInvocationHint                    
+    Closure                                 get-type
+    FlagsValue                              
+    InitiallyUnowned                        get-type
+    ParamSpecClass                          ParamSpec
+    TypeValueTable                          
+    ParamSpecEnum                           get-type
+    InitiallyUnownedClass                   InitiallyUnowned
+    TypeModuleClass                         TypeModule
+    FlagsClass                              
+    ClosureNotifyData                       
+    ParamSpecLong                           get-type
+    TypePlugin                              get-type
+    TypePluginClass                         
+    ParamSpecGType                          get-type
+    ParamSpecOverride                       get-type
+    ParamSpecUInt                           get-type
+    ObjectClass                             Object
+    ParamSpecUnichar                        get-type
+    TypeClass                               
+    ParamSpecUInt64                         get-type
+    ParamSpecVariant                        get-type
+    ParamSpecULong                          get-type
+    ParamSpecBoolean                        get-type
+    ParamSpecFloat                          get-type
+    Parameter                               
+    TypeInstance                            
+    WeakRef                                 
+    ValueArray                              get-type
+}
+
+{cairo
+    Context                                 get-type
+    Path                                    
+    Pattern                                 get-type
+    FontFace                                get-type
+    Matrix                                  
+    Device                                  get-type
+    Rectangle                               get-type
+    Region                                  get-type
+    ScaledFont                              get-type
+    RectangleInt                            get-type
+    Surface                                 get-type
+    FontOptions                             get-type
+}
+
+{gio
+    DataInputStreamPrivate                  
+    InetAddressClass                        InetAddress
+    InetSocketAddress                       get-type
+    OutputStream                            get-type
+    TlsCertificateClass                     TlsCertificate
+    ConverterIface                          Converter
+    PollableOutputStream                    get-type
+    DBusActionGroup                         get-type
+    UnixOutputStreamClass                   UnixOutputStream
+    DBusInterfaceSkeletonClass              DBusInterfaceSkeleton
+    UnixConnectionPrivate                   
+    InetSocketAddressClass                  InetSocketAddress
+    NativeSocketAddress                     get-type
+    PropertyAction                          get-type
+    VfsClass                                Vfs
+    SettingsSchemaSource                    get-type
+    InetAddressMaskClass                    InetAddressMask
+    Permission                              get-type
+    TlsInteraction                          get-type
+    DBusObjectProxyPrivate                  
+    FileEnumeratorPrivate                   
+    SimpleAsyncResult                       get-type
+    DBusObjectManagerServer                 get-type
+    DBusServer                              get-type
+    TcpWrapperConnectionPrivate             
+    DBusObjectSkeleton                      get-type
+    MountOperationClass                     MountOperation
+    DtlsServerConnectionInterface           DtlsServerConnection
+    LoadableIconIface                       LoadableIcon
+    MenuLinkIterPrivate                     
+    DBusObjectManagerServerPrivate          
+    SimpleProxyResolverPrivate              
+    TcpConnection                           get-type
+    MemoryMonitorInterface                  MemoryMonitor
+    OutputStreamClass                       OutputStream
+    ProxyResolverInterface                  ProxyResolver
+    TlsDatabase                             get-type
+    UnixConnection                          get-type
+    Volume                                  get-type
+    PollableInputStream                     get-type
+    CancellableClass                        Cancellable
+    DBusInterfaceSkeletonPrivate            
+    NetworkService                          get-type
+    TestDBus                                get-type
+    IOStream                                get-type
+    FileDescriptorBasedIface                FileDescriptorBased
+    InetAddress                             get-type
+    SimpleActionGroupClass                  SimpleActionGroup
+    AppLaunchContextPrivate                 
+    MemoryOutputStreamPrivate               
+    ProxyAddress                            get-type
+    SocketServicePrivate                    
+    UnixFDList                              get-type
+    FilterInputStreamClass                  FilterInputStream
+    IOStreamPrivate                         
+    TlsInteractionPrivate                   
+    DBusObjectManagerClientPrivate          
+    DBusObjectManagerServerClass            DBusObjectManagerServer
+    SocketClientClass                       SocketClient
+    TcpWrapperConnectionClass               TcpWrapperConnection
+    ZlibCompressorClass                     ZlibCompressor
+    DtlsServerConnection                    get-type
+    SettingsBackendPrivate                  
+    Notification                            get-type
+    UnixMountMonitorClass                   UnixMountMonitor
+    ListStoreClass                          ListStore
+    MenuModelClass                          MenuModel
+    TlsDatabasePrivate                      
+    SocketServiceClass                      SocketService
+    TlsFileDatabaseInterface                TlsFileDatabase
+    UnixMountMonitor                        get-type
+    MenuLinkIter                            get-type
+    NetworkAddress                          get-type
+    FileMonitor                             get-type
+    FileMonitorClass                        FileMonitor
+    SocketClient                            get-type
+    DataOutputStreamClass                   DataOutputStream
+    FileDescriptorBased                     get-type
+    SimpleProxyResolverClass                SimpleProxyResolver
+    InetAddressPrivate                      
+    FilterOutputStreamClass                 FilterOutputStream
+    MemoryOutputStreamClass                 MemoryOutputStream
+    ActionMap                               get-type
+    ZlibCompressor                          get-type
+    IOStreamAdapter                         
+    ApplicationClass                        Application
+    FileIconClass                           FileIcon
+    EmblemedIcon                            get-type
+    ConverterOutputStream                   get-type
+    TlsDatabaseClass                        TlsDatabase
+    NetworkServiceClass                     NetworkService
+    TlsConnectionClass                      TlsConnection
+    SimplePermission                        get-type
+    TlsPasswordPrivate                      
+    DtlsConnectionInterface                 DtlsConnection
+    MemoryMonitor                           get-type
+    OutputMessage                           
+    SocketListener                          get-type
+    SocketAddressEnumerator                 get-type
+    UnixInputStream                         get-type
+    SocketAddressEnumeratorClass            SocketAddressEnumerator
+    ListModel                               get-type
+    IconIface                               Icon
+    SimpleActionGroupPrivate                
+    PollableOutputStreamInterface           PollableOutputStream
+    UnixFDMessage                           get-type
+    DBusProxy                               get-type
+    TlsBackendInterface                     TlsBackend
+    Credentials                             get-type
+    Socket                                  get-type
+    DatagramBased                           get-type
+    PowerProfileMonitorInterface            PowerProfileMonitor
+    TaskClass                               Task
+    FileMonitorPrivate                      
+    TlsClientConnectionInterface            TlsClientConnection
+    SimpleActionGroup                       get-type
+    VolumeMonitorClass                      VolumeMonitor
+    DBusErrorEntry                          
+    IOSchedulerJob                          
+    UnixConnectionClass                     UnixConnection
+    DesktopAppInfo                          get-type
+    FileOutputStreamPrivate                 
+    ZlibDecompressorClass                   ZlibDecompressor
+    NativeVolumeMonitorClass                NativeVolumeMonitor
+    ConverterInputStreamPrivate             
+    EmblemClass                             Emblem
+    TcpWrapperConnection                    get-type
+    PermissionClass                         Permission
+    UnixFDListClass                         UnixFDList
+    Drive                                   get-type
+    Subprocess                              get-type
+    SocketConnectableIface                  SocketConnectable
+    TlsBackend                              get-type
+    DtlsClientConnection                    get-type
+    SettingsBackendClass                    SettingsBackend
+    UnixInputStreamPrivate                  
+    AppLaunchContextClass                   AppLaunchContext
+    SimpleAction                            get-type
+    SocketListenerClass                     SocketListener
+    Seekable                                get-type
+    IOModuleClass                           IOModule
+    DBusNodeInfo                            get-type
+    UnixOutputStream                        get-type
+    DBusMethodInfo                          get-type
+    UnixCredentialsMessage                  get-type
+    DBusAuthObserver                        get-type
+    Icon                                    get-type
+    FileAttributeInfo                       
+    ApplicationCommandLine                  get-type
+    ProxyAddressEnumeratorPrivate           
+    ThemedIconClass                         ThemedIcon
+    IOModule                                get-type
+    Action                                  get-type
+    SettingsBackend                         get-type
+    UnixCredentialsMessageClass             UnixCredentialsMessage
+    ZlibDecompressor                        get-type
+    Proxy                                   get-type
+    FilenameCompleter                       get-type
+    FileIOStreamClass                       FileIOStream
+    Emblem                                  get-type
+    RemoteActionGroupInterface              RemoteActionGroup
+    ConverterOutputStreamPrivate            
+    IOStreamClass                           IOStream
+    TlsFileDatabase                         get-type
+    ThreadedSocketServicePrivate            
+    BufferedOutputStream                    get-type
+    RemoteActionGroup                       get-type
+    AppInfoIface                            AppInfo
+    InputStream                             get-type
+    PollableInputStreamInterface            PollableInputStream
+    StaticResource                          
+    MenuItem                                get-type
+    InputStreamClass                        InputStream
+    ThreadedSocketService                   get-type
+    DBusSubtreeVTable                       
+    ProxyAddressEnumeratorClass             ProxyAddressEnumerator
+    UnixFDListPrivate                       
+    CharsetConverterClass                   CharsetConverter
+    SocketConnectable                       get-type
+    UnixSocketAddressClass                  UnixSocketAddress
+    DesktopAppInfoClass                     DesktopAppInfo
+    IOModuleScope                           
+    SubprocessLauncher                      get-type
+    AsyncInitable                           get-type
+    DriveIface                              Drive
+    DtlsConnection                          get-type
+    SettingsClass                           Settings
+    FilterOutputStream                      get-type
+    InputVector                             
+    DBusArgInfo                             get-type
+    FileEnumerator                          get-type
+    Cancellable                             get-type
+    NetworkMonitor                          get-type
+    TlsPasswordClass                        TlsPassword
+    SettingsSchemaKey                       get-type
+    ProxyResolver                           get-type
+    MountIface                              Mount
+    ListStore                               get-type
+    DBusAnnotationInfo                      get-type
+    MenuAttributeIter                       get-type
+    MemoryInputStreamPrivate                
+    TlsCertificatePrivate                   
+    DBusObjectSkeletonPrivate               
+    TlsServerConnectionInterface            TlsServerConnection
+    UnixFDMessageClass                      UnixFDMessage
+    DBusPropertyInfo                        get-type
+    Converter                               get-type
+    DBusObject                              get-type
+    InputStreamPrivate                      
+    ListModelInterface                      ListModel
+    DatagramBasedInterface                  DatagramBased
+    LoadableIcon                            get-type
+    Settings                                get-type
+    DBusObjectProxyClass                    DBusObjectProxy
+    TlsCertificate                          get-type
+    TcpConnectionPrivate                    
+    CredentialsClass                        Credentials
+    VolumeIface                             Volume
+    SimpleProxyResolver                     get-type
+    InetAddressMaskPrivate                  
+    UnixMountEntry                          get-type
+    FileInputStream                         get-type
+    MemoryInputStreamClass                  MemoryInputStream
+    SrvTarget                               get-type
+    ThemedIcon                              get-type
+    TlsServerConnection                     get-type
+    DBusObjectIface                         DBusObject
+    FileIOStream                            get-type
+    SeekableIface                           Seekable
+    TcpConnectionClass                      TcpConnection
+    UnixSocketAddressPrivate                
+    VolumeMonitor                           get-type
+    NetworkMonitorInterface                 NetworkMonitor
+    Application                             get-type
+    NetworkAddressPrivate                   
+    DBusMenuModel                           get-type
+    SocketClientPrivate                     
+    BufferedOutputStreamClass               BufferedOutputStream
+    NativeSocketAddressPrivate              
+    DebugControllerInterface                DebugController
+    SocketConnectionClass                   SocketConnection
+    TlsInteractionClass                     TlsInteraction
+    SettingsSchema                          get-type
+    ActionGroupInterface                    ActionGroup
+    BufferedOutputStreamPrivate             
+    DBusProxyPrivate                        
+    InitableIface                           Initable
+    SocketControlMessage                    get-type
+    UnixCredentialsMessagePrivate           
+    CharsetConverter                        get-type
+    SimpleAsyncResultClass                  SimpleAsyncResult
+    DebugControllerDBusClass                DebugControllerDBus
+    BytesIcon                               get-type
+    IOExtensionPoint                        
+    ActionInterface                         Action
+    ThreadedSocketServiceClass              ThreadedSocketService
+    ApplicationCommandLinePrivate           
+    SocketPrivate                           
+    MenuModelPrivate                        
+    ActionMapInterface                      ActionMap
+    Menu                                    get-type
+    TlsConnection                           get-type
+    FileInfoClass                           FileInfo
+    ProxyAddressClass                       ProxyAddress
+    MenuAttributeIterClass                  MenuAttributeIter
+    FilterInputStream                       get-type
+    ApplicationPrivate                      
+    FileEnumeratorClass                     FileEnumerator
+    DataOutputStreamPrivate                 
+    IOExtension                             
+    Initable                                get-type
+    NetworkServicePrivate                   
+    DBusObjectManagerIface                  DBusObjectManager
+    ConverterInputStreamClass               ConverterInputStream
+    DBusObjectManager                       get-type
+    NativeVolumeMonitor                     get-type
+    DBusInterface                           get-type
+    MenuAttributeIterPrivate                
+    InputMessage                            
+    AsyncResult                             get-type
+    MemoryOutputStream                      get-type
+    ResolverClass                           Resolver
+    Task                                    get-type
+    DBusObjectManagerClient                 get-type
+    EmblemedIconPrivate                     
+    PermissionPrivate                       
+    Mount                                   get-type
+    DBusMessage                             get-type
+    ProxyInterface                          Proxy
+    SocketService                           get-type
+    ProxyAddressEnumerator                  get-type
+    DBusInterfaceVTable                     
+    OutputVector                            
+    DBusProxyClass                          DBusProxy
+    DebugControllerDBus                     get-type
+    EmblemedIconClass                       EmblemedIcon
+    DBusSignalInfo                          get-type
+    FileInfo                                get-type
+    BufferedInputStream                     get-type
+    SocketConnection                        get-type
+    UnixMountPoint                          get-type
+    FileAttributeMatcher                    get-type
+    SocketClass                             Socket
+    MenuModel                               get-type
+    SocketAddress                           get-type
+    BufferedInputStreamPrivate              
+    DBusObjectSkeletonClass                 DBusObjectSkeleton
+    SocketListenerPrivate                   
+    MountOperation                          get-type
+    Vfs                                     get-type
+    Resolver                                get-type
+    DBusInterfaceIface                      DBusInterface
+    OutputStreamPrivate                     
+    Resource                                get-type
+    DBusObjectProxy                         get-type
+    DBusConnection                          get-type
+    AppInfo                                 get-type
+    FileOutputStreamClass                   FileOutputStream
+    DataInputStreamClass                    DataInputStream
+    TlsClientConnection                     get-type
+    FileInputStreamClass                    FileInputStream
+    UnixFDMessagePrivate                    
+    MountOperationPrivate                   
+    DBusInterfaceInfo                       get-type
+    InetSocketAddressPrivate                
+    ActionGroup                             get-type
+    AsyncResultIface                        AsyncResult
+    CancellablePrivate                      
+    FileOutputStream                        get-type
+    ConverterInputStream                    get-type
+    ApplicationCommandLineClass             ApplicationCommandLine
+    File                                    get-type
+    ResolverPrivate                         
+    MemoryInputStream                       get-type
+    TlsPassword                             get-type
+    UnixSocketAddress                       get-type
+    AppLaunchContext                        get-type
+    DataOutputStream                        get-type
+    SettingsPrivate                         
+    FileIcon                                get-type
+    FileIface                               File
+    DtlsClientConnectionInterface           DtlsClientConnection
+    NativeSocketAddressClass                NativeSocketAddress
+    SimpleIOStream                          get-type
+    DBusInterfaceSkeleton                   get-type
+    ProxyAddressPrivate                     
+    DebugController                         get-type
+    SocketControlMessageClass               SocketControlMessage
+    BufferedInputStreamClass                BufferedInputStream
+    DBusObjectManagerClientClass            DBusObjectManagerClient
+    DesktopAppInfoLookup                    get-type
+    ActionEntry                             
+    DesktopAppInfoLookupIface               DesktopAppInfoLookup
+    FileAttributeInfoList                   get-type
+    MenuLinkIterClass                       MenuLinkIter
+    DataInputStream                         get-type
+    DBusMethodInvocation                    get-type
+    AsyncInitableIface                      AsyncInitable
+    ConverterOutputStreamClass              ConverterOutputStream
+    FilenameCompleterClass                  FilenameCompleter
+    InetAddressMask                         get-type
+    SocketConnectionPrivate                 
+    UnixOutputStreamPrivate                 
+    TlsConnectionPrivate                    
+    NetworkAddressClass                     NetworkAddress
+    PowerProfileMonitor                     get-type
+    SocketAddressClass                      SocketAddress
+    FileIOStreamPrivate                     
+    AppInfoMonitor                          get-type
+    FileInputStreamPrivate                  
+    UnixInputStreamClass                    UnixInputStream
+    SocketControlMessagePrivate             
+}
+
+{geoclue
+    ClientProxyClass                        ClientProxy
+    ClientSkeletonClass                     ClientSkeleton
+    ManagerIface                            Manager
+    ManagerProxy                            get-type
+    ClientIface                             Client
+    Manager                                 get-type
+    Simple                                  get-type
+    SimpleClass                             Simple
+    LocationSkeletonPrivate                 
+    ClientProxyPrivate                      
+    SimplePrivate                           
+    LocationProxyPrivate                    
+    Client                                  get-type
+    LocationSkeleton                        get-type
+    ManagerSkeleton                         get-type
+    ClientSkeleton                          get-type
+    ManagerSkeletonClass                    ManagerSkeleton
+    LocationProxy                           get-type
+    LocationSkeletonClass                   LocationSkeleton
+    ClientProxy                             get-type
+    ManagerProxyPrivate                     
+    ClientSkeletonPrivate                   
+    LocationProxyClass                      LocationProxy
+    ManagerProxyClass                       ManagerProxy
+    ManagerSkeletonPrivate                  
+    LocationIface                           Location
+    Location                                get-type
+}
+
+{graphene
+    Frustum                                 get-type
+    Quad                                    get-type
+    Rect                                    get-type
+    Simd4F                                  
+    Plane                                   get-type
+    Quaternion                              get-type
+    Size                                    get-type
+    Triangle                                get-type
+    Vec4                                    get-type
+    Simd4X4F                                
+    Box                                     get-type
+    Euler                                   get-type
+    Point                                   get-type
+    Ray                                     get-type
+    Sphere                                  get-type
+    Matrix                                  get-type
+    Point3D                                 get-type
+    Vec2                                    get-type
+    Vec3                                    get-type
+}
+
+{glib
+    HashTable                               get-type
+    Once                                    
+    Node                                    
+    MemVTable                               
+    ScannerConfig                           
+    DateTime                                get-type
+    PollFD                                  get-type
+    Bytes                                   get-type
+    TimeVal                                 
+    Regex                                   get-type
+    TestSuite                               
+    Checksum                                get-type
+    TreeNode                                
+    MarkupParseContext                      get-type
+    ByteArray                               get-type
+    Tree                                    get-type
+    List                                    
+    Private                                 
+    HookList                                
+    OptionContext                           
+    MarkupParser                            
+    PatternSpec                             get-type
+    TestConfig                              
+    SList                                   
+    Hmac                                    
+    VariantBuilder                          get-type
+    PtrArray                                get-type
+    Mutex                                   
+    Sequence                                
+    DebugKey                                
+    GString                                 get-type
+    IOFuncs                                 
+    FloatIEEE754                            
+    Variant                                 get-type
+    TimeZone                                get-type
+    RecMutex                                
+    DoubleIEEE754                           
+    IConv                                   
+    IOChannel                               get-type
+    TrashStack                              
+    Scanner                                 
+    OptionEntry                             
+    VariantType                             get-type
+    ThreadPool                              
+    SourceFuncs                             
+    VariantDict                             get-type
+    MainLoop                                get-type
+    RWLock                                  
+    SourcePrivate                           
+    KeyFile                                 get-type
+    LogField                                
+    Uri                                     get-type
+    AsyncQueue                              
+    Source                                  get-type
+    TokenValue                              
+    MappedFile                              get-type
+    OptionGroup                             get-type
+    SourceCallbackFuncs                     
+    HashTableIter                           
+    Queue                                   
+    BookmarkFile                            
+    TestLogMsg                              
+    Hook                                    
+    Cond                                    
+    Rand                                    
+    Error                                   get-type
+    Data                                    
+    Dir                                     
+    Date                                    get-type
+    VariantIter                             
+    StringChunk                             
+    Thread                                  get-type
+    UriParamsIter                           
+    Array                                   get-type
+    SequenceIter                            
+    Timer                                   
+    MatchInfo                               get-type
+    TestCase                                
+    MainContext                             get-type
+    StatBuf                                 
+    StrvBuilder                             
+    TestLogBuffer                           
+}
+
+{gdk
+    Seat                                    get-type
+    DragSurface                             get-type
+    Rectangle                               get-type
+    TouchEvent                              get-type
+    FrameClockPrivate                       
+    Cursor                                  get-type
+    FocusEvent                              get-type
+    SnapshotClass                           Snapshot
+    DeleteEvent                             get-type
+    EventSequence                           get-type
+    RGBA                                    get-type
+    PaintableInterface                      Paintable
+    Popup                                   get-type
+    Toplevel                                get-type
+    ContentSerializer                       get-type
+    TimeCoord                               
+    TextureClass                            Texture
+    ContentProviderClass                    ContentProvider
+    MonitorClass                            Monitor
+    KeymapKey                               
+    CrossingEvent                           get-type
+    FileList                                get-type
+    PadEvent                                get-type
+    Device                                  get-type
+    DragSurfaceInterface                    DragSurface
+    MemoryTextureClass                      MemoryTexture
+    ProximityEvent                          get-type
+    GLTextureClass                          GLTexture
+    Drop                                    get-type
+    Snapshot                                get-type
+    FrameClockClass                         FrameClock
+    ScrollEvent                             get-type
+    CairoContext                            get-type
+    ToplevelInterface                       Toplevel
+    ContentDeserializer                     get-type
+    TouchpadEvent                           get-type
+    AppLaunchContext                        get-type
+    DNDEvent                                get-type
+    DevicePadInterface                      DevicePad
+    SurfaceClass                            Surface
+    ContentProvider                         get-type
+    GLContext                               get-type
+    ToplevelSize                            
+    Texture                                 get-type
+    DevicePad                               get-type
+    DeviceTool                              get-type
+    Surface                                 get-type
+    KeyEvent                                get-type
+    ContentFormats                          get-type
+    Monitor                                 get-type
+    ContentFormatsBuilder                   get-type
+    DrawContext                             get-type
+    FrameClock                              get-type
+    VulkanContext                           get-type
+    PopupInterface                          Popup
+    MemoryTexture                           get-type
+    MotionEvent                             get-type
+    Paintable                               get-type
+    Drag                                    get-type
+    ButtonEvent                             get-type
+    PopupLayout                             get-type
+    DisplayManager                          get-type
+    Event                                   get-type
+    Clipboard                               get-type
+    GLTexture                               get-type
+    FrameTimings                            get-type
+    GrabBrokenEvent                         get-type
+    Display                                 get-type
+    ToplevelLayout                          get-type
+}
+
+{gdkpixbuf
+    PixbufSimpleAnim                        get-type
+    PixbufAnimationClass                    PixbufAnimation
+    PixbufLoaderClass                       PixbufLoader
+    PixbufModule                            
+    PixbufLoader                            get-type
+    PixbufSimpleAnimClass                   PixbufSimpleAnim
+    PixbufAnimation                         get-type
+    PixbufAnimationIterClass                PixbufAnimationIter
+    PixbufFormat                            get-type
+    PixbufNonAnim                           get-type
+    PixbufAnimationIter                     get-type
+    Pixbuf                                  get-type
+    PixbufModulePattern                     
+    PixbufSimpleAnimIter                    get-type
+}
+
+{adw
+    AnimationClass                          Animation
+    TimedAnimation                          get-type
+    CarouselIndicatorLines                  get-type
+    EntryRowClass                           EntryRow
+    PreferencesPageClass                    PreferencesPage
+    FlapClass                               Flap
+    HeaderBarClass                          HeaderBar
+    ClampScrollableClass                    ClampScrollable
+    PreferencesGroup                        get-type
+    CarouselIndicatorDotsClass              CarouselIndicatorDots
+    ExpanderRowClass                        ExpanderRow
+    SplitButtonClass                        SplitButton
+    ViewStackPageClass                      ViewStackPage
+    LeafletClass                            Leaflet
+    ViewSwitcherBarClass                    ViewSwitcherBar
+    TabView                                 get-type
+    EntryRow                                get-type
+    PreferencesRow                          get-type
+    CallbackAnimationTargetClass            CallbackAnimationTarget
+    ComboRowClass                           ComboRow
+    SqueezerPage                            get-type
+    AboutWindowClass                        AboutWindow
+    TabPage                                 get-type
+    AboutWindow                             get-type
+    ClampLayout                             get-type
+    Application                             get-type
+    SwipeableInterface                      Swipeable
+    SwipeTrackerClass                       SwipeTracker
+    ViewStackClass                          ViewStack
+    SqueezerPageClass                       SqueezerPage
+    Swipeable                               get-type
+    PreferencesWindow                       get-type
+    StatusPage                              get-type
+    ActionRowClass                          ActionRow
+    SqueezerClass                           Squeezer
+    ViewStackPage                           get-type
+    Window                                  get-type
+    CarouselClass                           Carousel
+    CallbackAnimationTarget                 get-type
+    ApplicationClass                        Application
+    StyleManagerClass                       StyleManager
+    PreferencesGroupClass                   PreferencesGroup
+    ToastOverlay                            get-type
+    PreferencesRowClass                     PreferencesRow
+    Animation                               get-type
+    Clamp                                   get-type
+    StyleManager                            get-type
+    TabBarClass                             TabBar
+    TimedAnimationClass                     TimedAnimation
+    ClampScrollable                         get-type
+    CarouselIndicatorDots                   get-type
+    TabBar                                  get-type
+    Carousel                                get-type
+    LeafletPage                             get-type
+    PasswordEntryRow                        get-type
+    TabPageClass                            TabPage
+    PropertyAnimationTargetClass            PropertyAnimationTarget
+    SpringAnimation                         get-type
+    MessageDialog                           get-type
+    PreferencesWindowClass                  PreferencesWindow
+    HeaderBar                               get-type
+    PropertyAnimationTarget                 get-type
+    EnumListModelClass                      EnumListModel
+    PasswordEntryRowClass                   PasswordEntryRow
+    MessageDialogClass                      MessageDialog
+    EnumListItemClass                       EnumListItem
+    ViewSwitcherClass                       ViewSwitcher
+    ApplicationWindow                       get-type
+    Flap                                    get-type
+    WindowClass                             Window
+    Squeezer                                get-type
+    AnimationTargetClass                    AnimationTarget
+    AnimationTarget                         get-type
+    BinClass                                Bin
+    WindowTitle                             get-type
+    WindowTitleClass                        WindowTitle
+    ViewStack                               get-type
+    ApplicationWindowClass                  ApplicationWindow
+    ToastOverlayClass                       ToastOverlay
+    SpringParams                            get-type
+    CarouselIndicatorLinesClass             CarouselIndicatorLines
+    ViewSwitcher                            get-type
+    ViewSwitcherTitleClass                  ViewSwitcherTitle
+    Toast                                   get-type
+    ComboRow                                get-type
+    SplitButton                             get-type
+    ClampLayoutClass                        ClampLayout
+    ExpanderRow                             get-type
+    SwipeTracker                            get-type
+    PreferencesPage                         get-type
+    ViewSwitcherTitle                       get-type
+    Leaflet                                 get-type
+    Bin                                     get-type
+    EnumListModel                           get-type
+    ActionRow                               get-type
+    ToastClass                              Toast
+    StatusPageClass                         StatusPage
+    Avatar                                  get-type
+    TabViewClass                            TabView
+    ClampClass                              Clamp
+    LeafletPageClass                        LeafletPage
+    SpringAnimationClass                    SpringAnimation
+    AvatarClass                             Avatar
+    EnumListItem                            get-type
+    ViewSwitcherBar                         get-type
+    ButtonContent                           get-type
+    ButtonContentClass                      ButtonContent
+}
+
+{pango
+    Rectangle                               
+    RendererPrivate                         
+    LayoutClass                             Layout
+    Item                                    get-type
+    AttrList                                get-type
+    FontsetSimpleClass                      FontsetSimple
+    Matrix                                  get-type
+    AttrShape                               
+    FontDescription                         get-type
+    AttrFloat                               
+    GlyphInfo                               
+    AttrLanguage                            
+    GlyphItemIter                           get-type
+    Color                                   get-type
+    LayoutIter                              get-type
+    AttrFontDesc                            
+    GlyphGeometry                           
+    Fontset                                 get-type
+    Analysis                                
+    Renderer                                get-type
+    FontsetClass                            Fontset
+    GlyphString                             get-type
+    LogAttr                                 
+    ScriptIter                              get-type
+    AttrClass                               
+    Attribute                               get-type
+    TabArray                                get-type
+    FontFamilyClass                         FontFamily
+    AttrIterator                            get-type
+    FontMapClass                            FontMap
+    Font                                    get-type
+    FontsetSimple                           get-type
+    FontMap                                 get-type
+    FontClass                               Font
+    Language                                get-type
+    FontMetrics                             get-type
+    FontFaceClass                           FontFace
+    RendererClass                           Renderer
+    GlyphVisAttr                            
+    AttrInt                                 
+    Context                                 get-type
+    FontFamily                              get-type
+    Coverage                                get-type
+    AttrSize                                
+    FontFace                                get-type
+    AttrString                              
+    Layout                                  get-type
+    LayoutLine                              get-type
+    ContextClass                            Context
+    GlyphItem                               get-type
+    AttrColor                               
+    AttrFontFeatures                        
+}
+
+{gsk
+    GLShaderNode                            get-type
+    RoundedRect                             
+    OutsetShadowNode                        get-type
+    GLRenderer                              get-type
+    LinearGradientNode                      get-type
+    BlendNode                               get-type
+    Shadow                                  
+    DebugNode                               get-type
+    RadialGradientNode                      get-type
+    TextureNode                             get-type
+    ConicGradientNode                       get-type
+    ContainerNode                           get-type
+    ShadowNode                              get-type
+    RendererClass                           Renderer
+    GLShaderClass                           GLShader
+    ClipNode                                get-type
+    RepeatingRadialGradientNode             get-type
+    RepeatingLinearGradientNode             get-type
+    RoundedClipNode                         get-type
+    ColorStop                               
+    NglRenderer                             get-type
+    RenderNode                              get-type
+    ShaderArgsBuilder                       get-type
+    CairoRendererClass                      CairoRenderer
+    ColorNode                               get-type
+    BlurNode                                get-type
+    CairoRenderer                           get-type
+    OpacityNode                             get-type
+    ParseLocation                           
+    TransformNode                           get-type
+    TextNode                                get-type
+    GLRendererClass                         GLRenderer
+    BroadwayRenderer                        get-type
+    CrossFadeNode                           get-type
+    RepeatNode                              get-type
+    InsetShadowNode                         get-type
+    Renderer                                get-type
+    BroadwayRendererClass                   BroadwayRenderer
+    CairoNode                               get-type
+    BorderNode                              get-type
+    ColorMatrixNode                         get-type
+    GLShader                                get-type
+    Transform                               get-type
+}
+
+{pangocairo
+    Font                                    get-type
+    FontMap                                 get-type
+}
+
+{gtk
+    ScrollableInterface                     Scrollable
+    ActionableInterface                     Actionable
+    GesturePanClass                         GesturePan
+    Widget                                  get-type
+    StringSorter                            get-type
+    TreeExpanderClass                       TreeExpander
+    TreeListModelClass                      TreeListModel
+    CellArea                                get-type
+    FlowBox                                 get-type
+    FilterClass                             Filter
+    PopoverMenuBar                          get-type
+    Inscription                             get-type
+    Button                                  get-type
+    FontChooser                             get-type
+    Picture                                 get-type
+    StringObject                            get-type
+    ShortcutsSection                        get-type
+    MultiSorterClass                        MultiSorter
+    NotebookPage                            get-type
+    PageSetupUnixDialog                     get-type
+    NeverTrigger                            get-type
+    TreeModelFilter                         get-type
+    IconPaintable                           get-type
+    SliceListModelClass                     SliceListModel
+    AspectFrame                             get-type
+    ShortcutsSectionClass                   ShortcutsSection
+    BuildableParser                         
+    IMContextClass                          IMContext
+    ShortcutsWindow                         get-type
+    AppChooserDialog                        get-type
+    SearchBar                               get-type
+    EventControllerLegacyClass              EventControllerLegacy
+    Entry                                   get-type
+    ListViewClass                           ListView
+    PadControllerClass                      PadController
+    RecentManager                           get-type
+    EntryClass                              Entry
+    ProgressBar                             get-type
+    FlattenListModelClass                   FlattenListModel
+    CssProvider                             get-type
+    MediaFile                               get-type
+    AdjustmentClass                         Adjustment
+    CellRendererSpin                        get-type
+    ToggleButton                            get-type
+    ListStorePrivate                        
+    DragSource                              get-type
+    BuilderListItemFactory                  get-type
+    ShortcutActionClass                     ShortcutAction
+    TreeListRowClass                        TreeListRow
+    CustomFilter                            get-type
+    NativeDialogClass                       NativeDialog
+    FileChooserWidget                       get-type
+    WindowGroup                             get-type
+    CallbackActionClass                     CallbackAction
+    Separator                               get-type
+    SortListModelClass                      SortListModel
+    WindowGroupClass                        WindowGroup
+    GestureSwipeClass                       GestureSwipe
+    MediaStreamClass                        MediaStream
+    SnapshotClass                           Snapshot
+    CellRendererTextClass                   CellRendererText
+    MnemonicActionClass                     MnemonicAction
+    ListView                                get-type
+    Dialog                                  get-type
+    GLAreaClass                             GLArea
+    MessageDialog                           get-type
+    FontButton                              get-type
+    HeaderBar                               get-type
+    NothingActionClass                      NothingAction
+    Expander                                get-type
+    ShortcutControllerClass                 ShortcutController
+    Tooltip                                 get-type
+    ListBase                                get-type
+    TreeDragDestIface                       TreeDragDest
+    ActivateAction                          get-type
+    ShortcutAction                          get-type
+    CellAreaContext                         get-type
+    ExpressionWatch                         get-type
+    ShortcutController                      get-type
+    TreeModelSort                           get-type
+    PageRange                               
+    ApplicationWindow                       get-type
+    WindowClass                             Window
+    ScrolledWindow                          get-type
+    Video                                   get-type
+    WidgetPrivate                           
+    PrintContext                            get-type
+    ConstraintLayoutClass                   ConstraintLayout
+    WindowHandleClass                       WindowHandle
+    CClosureExpression                      get-type
+    PrintOperation                          get-type
+    ColorChooserInterface                   ColorChooser
+    FileChooserDialog                       get-type
+    DropTargetAsyncClass                    DropTargetAsync
+    AppChooserWidget                        get-type
+    TextTagClass                            TextTag
+    AppChooser                              get-type
+    StringFilter                            get-type
+    BuilderScopeInterface                   BuilderScope
+    PropertyExpression                      get-type
+    TreeViewClass                           TreeView
+    ClosureExpression                       get-type
+    IMContextSimple                         get-type
+    CellRendererPrivate                     
+    LayoutManagerClass                      LayoutManager
+    TreeListRowSorterClass                  TreeListRowSorter
+    GestureClass                            Gesture
+    CheckButtonClass                        CheckButton
+    MultiFilter                             get-type
+    CenterLayoutClass                       CenterLayout
+    EventControllerMotion                   get-type
+    PasswordEntry                           get-type
+    StackSidebar                            get-type
+    EveryFilterClass                        EveryFilter
+    IMContextSimpleClass                    IMContextSimple
+    GestureClick                            get-type
+    ListItem                                get-type
+    CustomFilterClass                       CustomFilter
+    BookmarkList                            get-type
+    IconView                                get-type
+    DropDownClass                           DropDown
+    FlattenListModel                        get-type
+    FrameClass                              Frame
+    PadController                           get-type
+    VideoClass                              Video
+    MnemonicAction                          get-type
+    Image                                   get-type
+    PrintOperationPreview                   get-type
+    ShortcutLabel                           get-type
+    TextViewPrivate                         
+    CellRendererText                        get-type
+    Sorter                                  get-type
+    WindowControlsClass                     WindowControls
+    CustomSorter                            get-type
+    Settings                                get-type
+    Accessible                              get-type
+    ListBoxRow                              get-type
+    StringSorterClass                       StringSorter
+    Adjustment                              get-type
+    Root                                    get-type
+    AppChooserButton                        get-type
+    TextChildAnchor                         get-type
+    FileChooserNativeClass                  FileChooserNative
+    CellRendererToggle                      get-type
+    Snapshot                                get-type
+    CellRendererSpinner                     get-type
+    ListBoxRowClass                         ListBoxRow
+    CellAreaClass                           CellArea
+    DirectoryListClass                      DirectoryList
+    IMMulticontext                          get-type
+    ColorChooserDialog                      get-type
+    RecentManagerClass                      RecentManager
+    Application                             get-type
+    DropControllerMotion                    get-type
+    GestureClickClass                       GestureClick
+    Popover                                 get-type
+    AssistantPage                           get-type
+    GesturePan                              get-type
+    Frame                                   get-type
+    PopoverMenu                             get-type
+    PrintUnixDialog                         get-type
+    ConstraintGuideClass                    ConstraintGuide
+    Paned                                   get-type
+    RecentManagerPrivate                    
+    GestureStylus                           get-type
+    DrawingArea                             get-type
+    EveryFilter                             get-type
+    NumericSorter                           get-type
+    GridLayout                              get-type
+    NamedActionClass                        NamedAction
+    ColorButton                             get-type
+    Revealer                                get-type
+    ScaleButtonClass                        ScaleButton
+    LayoutChildClass                        LayoutChild
+    CssProviderClass                        CssProvider
+    CellEditableIface                       CellEditable
+    EntryCompletion                         get-type
+    EventController                         get-type
+    RequestedSize                           
+    SpinButton                              get-type
+    SizeGroup                               get-type
+    StringList                              get-type
+    ScaleButton                             get-type
+    Text                                    get-type
+    TextBufferPrivate                       
+    SelectionModelInterface                 SelectionModel
+    CellAreaBox                             get-type
+    CenterBox                               get-type
+    Expression                              get-type
+    PrintOperationClass                     PrintOperation
+    CustomLayoutClass                       CustomLayout
+    StringFilterClass                       StringFilter
+    TreeIter                                get-type
+    GestureSwipe                            get-type
+    CellRendererCombo                       get-type
+    Actionable                              get-type
+    KeyvalTriggerClass                      KeyvalTrigger
+    PasswordEntryBufferClass                PasswordEntryBuffer
+    GestureStylusClass                      GestureStylus
+    ConstraintLayout                        get-type
+    FontChooserIface                        FontChooser
+    FixedClass                              Fixed
+    ColumnViewColumn                        get-type
+    SelectionModel                          get-type
+    TreeDragSource                          get-type
+    WindowControls                          get-type
+    TextView                                get-type
+    ScaleClass                              Scale
+    OverlayLayoutClass                      OverlayLayout
+    GestureSingle                           get-type
+    MountOperation                          get-type
+    CellAreaContextPrivate                  
+    SingleSelectionClass                    SingleSelection
+    TextMarkClass                           TextMark
+    Box                                     get-type
+    Range                                   get-type
+    EmojiChooserClass                       EmojiChooser
+    CellRendererProgress                    get-type
+    ConstraintGuide                         get-type
+    FixedLayoutChild                        get-type
+    ShortcutsShortcutClass                  ShortcutsShortcut
+    EditableLabelClass                      EditableLabel
+    GestureLongPress                        get-type
+    TextTag                                 get-type
+    ButtonClass                             Button
+    CellRendererClassPrivate                
+    CellRendererClass                       CellRenderer
+    TextMark                                get-type
+    EntryBuffer                             get-type
+    BuilderListItemFactoryClass             BuilderListItemFactory
+    GestureRotateClass                      GestureRotate
+    NeverTriggerClass                       NeverTrigger
+    MultiFilterClass                        MultiFilter
+    IMContext                               get-type
+    MenuButton                              get-type
+    DropTargetAsync                         get-type
+    ShortcutTriggerClass                    ShortcutTrigger
+    EditableInterface                       Editable
+    EventControllerMotionClass              EventControllerMotion
+    TreeStoreClass                          TreeStore
+    FixedLayoutClass                        FixedLayout
+    Editable                                get-type
+    ShortcutLabelClass                      ShortcutLabel
+    BinLayout                               get-type
+    WindowHandle                            get-type
+    EmojiChooser                            get-type
+    WidgetClassPrivate                      
+    BuilderCScope                           get-type
+    ColorChooser                            get-type
+    Scale                                   get-type
+    OrientableIface                         Orientable
+    ShortcutManagerInterface                ShortcutManager
+    IMMulticontextClass                     IMMulticontext
+    CallbackAction                          get-type
+    CustomLayout                            get-type
+    GestureRotate                           get-type
+    OverlayLayout                           get-type
+    TreeView                                get-type
+    GridView                                get-type
+    MnemonicTrigger                         get-type
+    ObjectExpression                        get-type
+    SelectionFilterModelClass               SelectionFilterModel
+    BuilderCScopeClass                      BuilderCScope
+    StackSwitcher                           get-type
+    ComboBoxText                            get-type
+    BoxClass                                Box
+    AnyFilter                               get-type
+    BinLayoutClass                          BinLayout
+    TextIter                                get-type
+    ListItemClass                           ListItem
+    CellRendererAccel                       get-type
+    AnyFilterClass                          AnyFilter
+    SortListModel                           get-type
+    TreeViewColumn                          get-type
+    Assistant                               get-type
+    SelectionFilterModel                    get-type
+    ButtonPrivate                           
+    TreeDragDest                            get-type
+    TreeListRow                             get-type
+    CenterLayout                            get-type
+    PrintSettings                           get-type
+    NoSelection                             get-type
+    ShortcutClass                           Shortcut
+    Overlay                                 get-type
+    ListItemFactory                         get-type
+    MountOperationClass                     MountOperation
+    MediaFileClass                          MediaFile
+    TreeSortableIface                       TreeSortable
+    ComboBox                                get-type
+    GestureDragClass                        GestureDrag
+    NativeInterface                         Native
+    MnemonicTriggerClass                    MnemonicTrigger
+    LayoutChild                             get-type
+    GestureZoom                             get-type
+    TreeModelSortPrivate                    
+    PrintBackend                            
+    TreeListRowSorter                       get-type
+    BuilderClass                            Builder
+    ListBox                                 get-type
+    FontChooserDialog                       get-type
+    FlowBoxChild                            get-type
+    ConstraintTarget                        get-type
+    OverlayLayoutChild                      get-type
+    Spinner                                 get-type
+    DragIcon                                get-type
+    ColumnViewColumnClass                   ColumnViewColumn
+    EntryBufferClass                        EntryBuffer
+    ListStoreClass                          ListStore
+    NamedAction                             get-type
+    TreeModel                               get-type
+    GestureZoomClass                        GestureZoom
+    CssStyleChange                          
+    FilterListModel                         get-type
+    BitsetIter                              get-type
+    PasswordEntryBuffer                     get-type
+    DropDown                                get-type
+    FixedLayout                             get-type
+    PictureClass                            Picture
+    BuildableParseContext                   
+    SearchEntry                             get-type
+    Scrollbar                               get-type
+    Window                                  get-type
+    RecentInfo                              get-type
+    GLArea                                  get-type
+    Calendar                                get-type
+    ColumnView                              get-type
+    OverlayLayoutChildClass                 OverlayLayoutChild
+    ApplicationClass                        Application
+    ConstraintClass                         Constraint
+    ListBaseClass                           ListBase
+    CellView                                get-type
+    FilterListModelClass                    FilterListModel
+    LayoutManager                           get-type
+    PopoverClass                            Popover
+    CssLocation                             
+    FlowBoxChildClass                       FlowBoxChild
+    ShortcutsShortcut                       get-type
+    CheckButton                             get-type
+    CustomSorterClass                       CustomSorter
+    PageSetup                               get-type
+    SignalAction                            get-type
+    EventControllerLegacy                   get-type
+    Constraint                              get-type
+    ConstantExpression                      get-type
+    Label                                   get-type
+    EventControllerKeyClass                 EventControllerKey
+    SorterClass                             Sorter
+    Native                                  get-type
+    ActivateActionClass                     ActivateAction
+    FileChooser                             get-type
+    IMMulticontextPrivate                   
+    ActionBar                               get-type
+    CellAreaContextClass                    CellAreaContext
+    Orientable                              get-type
+    TextBufferClass                         TextBuffer
+    CssProviderPrivate                      
+    DragIconClass                           DragIcon
+    GridLayoutClass                         GridLayout
+    CenterBoxClass                          CenterBox
+    StyleProvider                           get-type
+    Stack                                   get-type
+    SymbolicPaintable                       get-type
+    KeyvalTrigger                           get-type
+    PrintOperationPreviewIface              PrintOperationPreview
+    SignalListItemFactoryClass              SignalListItemFactory
+    PaperSize                               get-type
+    Border                                  get-type
+    LevelBar                                get-type
+    TreeExpander                            get-type
+    PasswordEntryClass                      PasswordEntry
+    BoxLayoutClass                          BoxLayout
+    Bitset                                  get-type
+    StyleContextClass                       StyleContext
+    Statusbar                               get-type
+    ATContext                               get-type
+    TextTagPrivate                          
+    CellLayout                              get-type
+    MediaControlsClass                      MediaControls
+    TreeSortable                            get-type
+    TreeStorePrivate                        
+    NativeDialog                            get-type
+    ColumnViewClass                         ColumnView
+    ShortcutManager                         get-type
+    MultiSorter                             get-type
+    ParamSpecExpression                     get-type
+    BoolFilter                              get-type
+    PrintOperationPrivate                   
+    Filter                                  get-type
+    CellEditable                            get-type
+    NumericSorterClass                      NumericSorter
+    DropTargetClass                         DropTarget
+    GestureLongPressClass                   GestureLongPress
+    GestureSingleClass                      GestureSingle
+    BuilderScope                            get-type
+    SignalListItemFactory                   get-type
+    AboutDialog                             get-type
+    TextChildAnchorClass                    TextChildAnchor
+    MultiSelection                          get-type
+    NoSelectionClass                        NoSelection
+    Scrollable                              get-type
+    ListStore                               get-type
+    FixedLayoutChildClass                   FixedLayoutChild
+    EditableLabel                           get-type
+    Shortcut                                get-type
+    TreeSelection                           get-type
+    SymbolicPaintableInterface              SymbolicPaintable
+    VolumeButton                            get-type
+    DropControllerMotionClass               DropControllerMotion
+    GridViewClass                           GridView
+    TreeRowReference                        get-type
+    SliceListModel                          get-type
+    WidgetPaintableClass                    WidgetPaintable
+    NothingAction                           get-type
+    MediaStream                             get-type
+    Switch                                  get-type
+    BoolFilterClass                         BoolFilter
+    CellRendererPixbuf                      get-type
+    IconTheme                               get-type
+    TreeModelSortClass                      TreeModelSort
+    CssSection                              get-type
+    FontChooserWidget                       get-type
+    Grid                                    get-type
+    RangeClass                              Range
+    TreeModelFilterPrivate                  
+    InfoBar                                 get-type
+    StyleContext                            get-type
+    GridLayoutChild                         get-type
+    LockButton                              get-type
+    ConstraintLayoutChild                   get-type
+    EventControllerScroll                   get-type
+    FileFilter                              get-type
+    Buildable                               get-type
+    Fixed                                   get-type
+    RecentData                              
+    TextTagTable                            get-type
+    CellLayoutIface                         CellLayout
+    GestureDrag                             get-type
+    FileChooserNative                       get-type
+    MultiSelectionClass                     MultiSelection
+    MediaControls                           get-type
+    TreeModelFilterClass                    TreeModelFilter
+    MapListModelClass                       MapListModel
+    TreeStore                               get-type
+    AlternativeTriggerClass                 AlternativeTrigger
+    TreePath                                get-type
+    DrawingAreaClass                        DrawingArea
+    StackPage                               get-type
+    Requisition                             get-type
+    AlternativeTrigger                      get-type
+    RootInterface                           Root
+    GridClass                               Grid
+    SingleSelection                         get-type
+    TreeModelIface                          TreeModel
+    Builder                                 get-type
+    CellRenderer                            get-type
+    ToggleButtonClass                       ToggleButton
+    Printer                                 get-type
+    BuildableIface                          Buildable
+    Gesture                                 get-type
+    ColorChooserWidget                      get-type
+    EventControllerClass                    EventController
+    InscriptionClass                        Inscription
+    WidgetClass                             Widget
+    PrintJob                                get-type
+    SignalActionClass                       SignalAction
+    WidgetPaintable                         get-type
+    DirectoryList                           get-type
+    MessageDialogClass                      MessageDialog
+    IMContextSimplePrivate                  
+    MountOperationPrivate                   
+    BookmarkListClass                       BookmarkList
+    DialogClass                             Dialog
+    TextViewClass                           TextView
+    ConstraintTargetInterface               ConstraintTarget
+    EventControllerScrollClass              EventControllerScroll
+    AccessibleInterface                     Accessible
+    DropTarget                              get-type
+    ATContextClass                          ATContext
+    TreeDragSourceIface                     TreeDragSource
+    ShortcutsGroupClass                     ShortcutsGroup
+    ApplicationWindowClass                  ApplicationWindow
+    BoxLayout                               get-type
+    TreeListModel                           get-type
+    LinkButton                              get-type
+    StringObjectClass                       StringObject
+    EventControllerKey                      get-type
+    DragSourceClass                         DragSource
+    EventControllerFocusClass               EventControllerFocus
+    TextBuffer                              get-type
+    WindowGroupPrivate                      
+    PadActionEntry                          
+    StringListClass                         StringList
+    ConstraintLayoutChildClass              ConstraintLayoutChild
+    Notebook                                get-type
+    ShortcutsGroup                          get-type
+    Viewport                                get-type
+    EventControllerFocus                    get-type
+    GridLayoutChildClass                    GridLayoutChild
+    ListItemFactoryClass                    ListItemFactory
+    ShortcutTrigger                         get-type
+    MapListModel                            get-type
+    ComboBoxClass                           ComboBox
+}
+

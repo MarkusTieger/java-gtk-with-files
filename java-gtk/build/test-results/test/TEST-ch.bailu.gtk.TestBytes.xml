@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.bailu.gtk.TestBytes" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-07-07T13:26:37" hostname="ms7c56" time="0.087">
+  <properties/>
+  <testcase name="testBytes()" classname="ch.bailu.gtk.TestBytes" time="0.085"/>
+  <testcase name="testNullBytes()" classname="ch.bailu.gtk.TestBytes" time="0.001"/>
+  <system-out><![CDATA[Loaded 'c' for 'c'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

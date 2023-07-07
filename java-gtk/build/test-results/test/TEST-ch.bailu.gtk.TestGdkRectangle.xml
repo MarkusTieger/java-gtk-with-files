@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.bailu.gtk.TestGdkRectangle" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-07T13:26:39" hostname="ms7c56" time="0.022">
+  <properties/>
+  <testcase name="testRectangle()" classname="ch.bailu.gtk.TestGdkRectangle" time="0.022"/>
+  <system-out><![CDATA[Rectangle size: 16 bytes
+Loaded 'gtk-4' for 'gtk-4'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,160 @@
+/* this file is machine generated */
+package ch.bailu.gtk.gtk;
+
+import javax.annotation.Nullable;
+import javax.annotation.Nonnull;
+import ch.bailu.gtk.type.Str;
+import ch.bailu.gtk.type.PointerContainer;
+
+
+/**
+ * `GtkEventControllerMotion` is an event controller tracking the pointer
+ * <br>position.
+ * <br>
+ * <br>The event controller offers [signal&#64;Gtk.EventControllerMotion::enter]
+ * <br>and [signal&#64;Gtk.EventControllerMotion::leave] signals, as well as
+ * <br>[property&#64;Gtk.EventControllerMotion:is-pointer] and
+ * <br>[property&#64;Gtk.EventControllerMotion:contains-pointer] properties
+ * <br>which are updated to reflect changes in the pointer position as it
+ * <br>moves over the widget.
+ * <p><a href="https://docs.gtk.org/gtk4/class.EventControllerMotion.html">https://docs.gtk.org/gtk4/class.EventControllerMotion.html</a></p>
+*/
+public class EventControllerMotion extends EventController {
+    public static ch.bailu.gtk.lib.handler.ClassHandler getClassHandler() {
+        return ch.bailu.gtk.lib.handler.ClassHandler.get(EventControllerMotion.class.getCanonicalName());
+    }
+
+    @FunctionalInterface
+    public interface OnEnter {
+        /**
+         * Signals that the pointer has entered the widget.
+         * @param x coordinates of pointer location
+         * @param y coordinates of pointer location
+        */
+        void onEnter(double x, double y);
+    }
+    
+    private static com.sun.jna.Callback toOnEnter(OnEnter in) {
+        return (in == null) ? null: (JnaEventControllerMotion.OnEnter) (__self, _x, _y, __data) -> in.onEnter(_x, _y);
+    }
+
+    @FunctionalInterface
+    public interface OnLeave {
+        /**
+         * Signals that the pointer has left the widget.
+        */
+        void onLeave();
+    }
+    
+    private static com.sun.jna.Callback toOnLeave(OnLeave in) {
+        return (in == null) ? null: (JnaEventControllerMotion.OnLeave) (__self, __data) -> in.onLeave();
+    }
+
+    @FunctionalInterface
+    public interface OnMotion {
+        /**
+         * Emitted when the pointer moves inside the widget.
+         * @param x the x coordinate
+         * @param y the y coordinate
+        */
+        void onMotion(double x, double y);
+    }
+    
+    private static com.sun.jna.Callback toOnMotion(OnMotion in) {
+        return (in == null) ? null: (JnaEventControllerMotion.OnMotion) (__self, _x, _y, __data) -> in.onMotion(_x, _y);
+    }
+
+    public EventControllerMotion(PointerContainer pointer) {
+        super(pointer);
+    }
+
+    /**
+     * Creates a new event controller that will handle motion events.
+    */
+    public EventControllerMotion() {
+        super(cast(JnaEventControllerMotion.INST().gtk_event_controller_motion_new()));
+    }
+
+    /**
+     * Returns if a pointer is within &#64;self or one of its children.
+     * @return %TRUE if a pointer is within &#64;self or one of its children
+    */
+    public boolean containsPointer()  {
+        return JnaEventControllerMotion.INST().gtk_event_controller_motion_contains_pointer(asCPointer());
+    }
+
+    /**
+     * Returns if a pointer is within &#64;self, but not one of its children.
+     * @return %TRUE if a pointer is within &#64;self but not one of its children
+    */
+    public boolean isPointer()  {
+        return JnaEventControllerMotion.INST().gtk_event_controller_motion_is_pointer(asCPointer());
+    }
+
+    public final static String SIGNAL_ON_ENTER = "enter";
+    
+    /**
+     * Connect to signal "enter".
+     * <br>See {@link OnEnter#onEnter} for signal description.
+     * <br>Field {@link #SIGNAL_ON_ENTER} contains original signal name and can be used as resource reference.
+     * <br>
+     * @param signal callback function (lambda).
+     * @return {@link ch.bailu.gtk.lib.handler.SignalHandler}. Can be used to disconnect signal and to release callback function.
+    */
+    public ch.bailu.gtk.lib.handler.SignalHandler onEnter(OnEnter signal) {
+        return connectSignal(SIGNAL_ON_ENTER, toOnEnter(signal));
+    }
+
+    public final static String SIGNAL_ON_LEAVE = "leave";
+    
+    /**
+     * Connect to signal "leave".
+     * <br>See {@link OnLeave#onLeave} for signal description.
+     * <br>Field {@link #SIGNAL_ON_LEAVE} contains original signal name and can be used as resource reference.
+     * <br>
+     * @param signal callback function (lambda).
+     * @return {@link ch.bailu.gtk.lib.handler.SignalHandler}. Can be used to disconnect signal and to release callback function.
+    */
+    public ch.bailu.gtk.lib.handler.SignalHandler onLeave(OnLeave signal) {
+        return connectSignal(SIGNAL_ON_LEAVE, toOnLeave(signal));
+    }
+
+    public final static String SIGNAL_ON_MOTION = "motion";
+    
+    /**
+     * Connect to signal "motion".
+     * <br>See {@link OnMotion#onMotion} for signal description.
+     * <br>Field {@link #SIGNAL_ON_MOTION} contains original signal name and can be used as resource reference.
+     * <br>
+     * @param signal callback function (lambda).
+     * @return {@link ch.bailu.gtk.lib.handler.SignalHandler}. Can be used to disconnect signal and to release callback function.
+    */
+    public ch.bailu.gtk.lib.handler.SignalHandler onMotion(OnMotion signal) {
+        return connectSignal(SIGNAL_ON_MOTION, toOnMotion(signal));
+    }
+
+    public static long getTypeID() { 
+        return JnaEventControllerMotion.INST().gtk_event_controller_motion_get_type(); 
+    }
+    
+    public static long getParentTypeID() {
+        return ch.bailu.gtk.gobject.Gobject.typeParent(getTypeID());
+    }
+    
+    public static ch.bailu.gtk.type.gobject.TypeSystem.TypeSize getTypeSize() {
+        return ch.bailu.gtk.type.gobject.TypeSystem.getTypeSize(getTypeID());
+    }
+    
+    public static ch.bailu.gtk.type.gobject.TypeSystem.TypeSize getParentTypeSize() {
+        return ch.bailu.gtk.type.gobject.TypeSystem.getTypeSize(getParentTypeID());
+    }
+    
+    public static int getInstanceSize() {
+        return getTypeSize().instanceSize;
+    }
+
+}
+
+/*
+class-type
+*/

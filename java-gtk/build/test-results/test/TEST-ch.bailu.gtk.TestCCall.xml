@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.bailu.gtk.TestCCall" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-07-07T13:26:37" hostname="ms7c56" time="1.115">
+  <properties/>
+  <testcase name="testApplicationLoop()" classname="ch.bailu.gtk.TestCCall" time="0.029"/>
+  <testcase name="testRGBAMallocAndFileds()" classname="ch.bailu.gtk.TestCCall" time="0.01"/>
+  <testcase name="testMainLoop()" classname="ch.bailu.gtk.TestCCall" time="1.073"/>
+  <system-out><![CDATA[Loaded 'gio-2.0' for 'gio-2.0'
+Loaded 'gobject-2.0' for 'gobject-2.0'
+RGBA size: 16 bytes
+Loaded 'glib-2.0' for 'glib-2.0'
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

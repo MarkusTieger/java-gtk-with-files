@@ -1,0 +1,1 @@
+¯WARNING code tags are not even: "Sets the maximum allowed length of the contents of the widget. If the current contents are longer than the given length, then they will be truncated to fit.  This is equivalent to getting @entry's #GtkEntryBuffer and calling gtk_entry_buffer_set_max_length() on it. ]|"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.bailu.gtk.TestSurface" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-07-07T13:26:39" hostname="ms7c56" time="0.025">
+  <properties/>
+  <testcase name="testImageSurface()" classname="ch.bailu.gtk.TestSurface" time="0.01"/>
+  <testcase name="testSurface()" classname="ch.bailu.gtk.TestSurface" time="0.014"/>
+  <system-out><![CDATA[Loaded 'cairo' for 'cairo'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
